@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./stabilyzr.svg" type="image/x-icon" />
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
@@ -27,22 +28,24 @@
           <span class="ml-3 text-xl xl:block lg:hidden">Stabilyzr</span>
         </a>
         <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-          <button
-            class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-          >
-            Go to app
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
+          <a href="https://stabilyzr.herokuapp.com/">
+            <button
+              class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
             >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+              Go to app
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-1"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button>
+          </a>
         </div>
       </div>
     </header>
@@ -66,16 +69,20 @@
             insights to determine uncovered areas of your application.
           </p>
           <div class="flex justify-center">
-            <button
-              class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            <a href="https://github.com/charlesmbrady/Stabilyzr" target="_blank"
+              ><button
+                class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              >
+                Learn More
+              </button></a
             >
-              Learn More
-            </button>
-            <button
-              class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-            >
-              Get Started
-            </button>
+            <a href="https://stabilyzr.herokuapp.com/"
+              ><button
+                class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              >
+                Get Started
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -94,12 +101,17 @@
             where you spend the most time on test maintenance.
           </p>
           <div class="flex md:mt-4 mt-6">
-            <button
-              class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded"
+            <a href="https://stabilyzr.herokuapp.com/"
+              ><button
+                class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded"
+              >
+                Get Started
+              </button></a
             >
-              Get Started
-            </button>
-            <a class="text-green-500 inline-flex items-center ml-4"
+            <a
+              href="https://github.com/charlesmbrady/Stabilyzr"
+              target="_blank"
+              class="text-green-500 inline-flex items-center ml-4"
               >Learn More
               <svg
                 fill="none"
